@@ -114,12 +114,15 @@ sudo aws s3 cp s3://your-bucket-name/index.html /var/www/html/
 | `apt update failed` | IPv6 blocked | Use `-o Acquire::ForceIPv4=true` |
 
 ## Screenshots 
-> Add your screenshots here
-- [ ] VPC architecture
-- [ ] S3 bucket permissions
-- [ ] Security group rules
-- [ ] IAM role configuration
+- [ ] S3 Bucket Permissions
+-  [S3](s3-permissions.png)
+- [ ] Security Group Rules
+[Security Group](security-group.png)
+- [ ] IAM Role Configuration
+[IAM Role](iam-role.png)
 - [ ] Website running in browser
+- [Website](website.png)
+
 
 
 
